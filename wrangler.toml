@@ -1,0 +1,8 @@
+name = "replitapp-worker"
+type = "javascript"
+
+[env.production]
+route = "replitapp.org/*"
+zone_id = "50b9b29f7de300dc07865d97d823f097"  # You can find your zone_id in Cloudflare dashboard
+
+account_id = "f56178b27d47bc50677d8b0cf69dcf57"  # Your Cloudflare account ID
